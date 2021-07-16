@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+.login-home{
+    background-image: url('./background.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 74.6rem;
+    border-bottom: 5px solid white;
+}
+
+.login-home-info{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    padding: 20rem;
+    text-align: center;
+    margin-top: 0%;
+    /* background-color: #000000d8; */
+    background-color: rgba(0, 0, 0, 0.589);
+
+}
+.login-home-info h1{
+    font-size: 6.6rem;
+}
+.login-home-info p{
+    font-size: 2.2rem;
+}
+.login-home-info input{
+    width: 50rem;
+    padding-bottom: 0.5rem;
+    border: 'solid'
+}
+.login-home-info input, .login-home-info button{
+    font-size: 2.2rem;
+}
+.login-home-info button{
+    background-color: red;
+    padding: 0.3rem;
+    border: red solid;
+    /* border: none; */
+}
+
+
+/****************/
+
+.login-body{
+    background-color: black;
+    color: white;
+}
+.login-body-div{
+    display: flex;
+    border-bottom: 5px solid rgb(59, 59, 59);
+}
+.login-body-div-info{
+    margin: 10rem;
+
+}
+.login-body-div-info h1, .login-body h1 {
+    font-size: 6rem;
+}
+.login-body-div-info p{
+    font-size: 2rem;
+}
+.login-body-ques{
+    text-align: center;
+    padding-bottom: 10rem;
+}
+.login-body-ques p{
+    
+    background-color: rgb(29, 29, 29);
+    text-align: left;
+    font-size: 3rem;
+    margin: 2rem 28rem 1rem 28rem;
+}
+.login-body-div img{
+    object-fit: cover;
+    width: 64rem;
+    height: 48rem;
+}

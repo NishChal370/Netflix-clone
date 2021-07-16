@@ -1,9 +1,13 @@
 .App {
-  text-align: center;
+  margin: 0;
+  
 }
-
+/* to remove top margin from login div */
+/* *{
+  margin: 0 !important;
+  padding: 0 !important;
+} */
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 

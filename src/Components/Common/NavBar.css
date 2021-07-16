@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.collapse input{
+    background-color: rgba(0, 0, 0, 0.596);
+    color: white;
+    margin-left: 70rem;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-family: 'Rubik', sans-serif;
+    border-color: white;    
+}
+
+.d-inline-block{
+    object-fit: cover;
+    height: 4.6rem;
+}
+.container-fluid{
+    gap: 5rem;
+}
+.nav-link{
+    font-size: 2.8rem;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    cursor: pointer;
+}

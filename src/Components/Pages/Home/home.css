@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+.home-screen{
+    background-color: black;
+    color: white;
+}
+
+.cateogary-title-div{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.cateogary-image-div{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    align-items: center;
+    margin-left: 2em;
+}
+.cateogary-title-div p{
+    cursor: pointer;
+    margin-bottom: 0%;
+    padding: 1.2rem 0% 0% 1rem;
+}
+.card-img-top{
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* ------------------------------------- */
+
+.top-div{
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+.top-div-info{
+    font-family: 'Rubik', sans-serif;
+    width: 70rem;
+    font-size: 1.6em;
+    padding-left: 2rem;
+    text-align: justify;
+    box-shadow:  0 0 90px 160px #000000e3;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.top-div-info h1{
+    font-size: 7.6rem;
+    padding-top: 40%;
+}
+.top-div-info:hover{
+    padding-top: 12%;
+}
+.card-img-top:hover{
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.493);
+}
+
+.image{
+    width: 18rem;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.Detail-screen{
+    background-color: black;
+}
+
+.top-img:hover{
+    height: 60rem;
+}
+
+.top-img{
+    height: 40rem;
+    background-size: cover;
+    object-fit: cover; 
+    background-repeat: no-repeat;
+}
+.card-img{
+    width: 27rem;
+    position: relative;
+    bottom: 18rem;
+
+}
+.image-div{
+    object-fit: cover;    
+}
+
+.container-info{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    bottom: 10rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.568);  
+    padding-left: 2rem;
+    font-size: 1.4rem;
+    width:  100%;
+    background-color: rgba(0, 0, 0, 0.568);
+
+}
+
+.container_row{
+    display: flex;
+    width:  100%;
+    background-color: rgba(0, 0, 0, 0.568);
+
+}
+
+.container{
+    height: 24rem;
+}
+
+.container-info h1{
+    font-size: 6rem;
+}
+
+.container-info p{
+    text-align: justify;
+}
+
+span h2{
+    cursor: pointer;
+}
+span h2:hover{
+    text-decoration: underline;
+}
+/**React player*/
+.react-player{
+    margin-left: 10rem;
+}
+.empty-message{
+    color: blue;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10rem;
+    margin: 20rem;
+    margin-left: 30rem;
+}

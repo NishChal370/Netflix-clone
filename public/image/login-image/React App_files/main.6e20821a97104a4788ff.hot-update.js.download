@@ -1,0 +1,27 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/Pages/Detail/Detail.css":
+/*!***************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/Components/Pages/Detail/Detail.css ***!
+  \***************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap);"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".Detail-screen{\r\n    background-color: black;\r\n}\r\n\r\n.top-img:hover{\r\n    height: 60rem;\r\n}\r\n\r\n.top-img{\r\n    height: 40rem;\r\n    background-size: cover;\r\n    object-fit: cover; \r\n    background-repeat: no-repeat;\r\n}\r\n.card-img{\r\n    width: 27rem;\r\n    position: relative;\r\n    bottom: 18rem;\r\n\r\n}\r\n.image-div{\r\n    object-fit: cover;    \r\n}\r\n\r\n.container-info{\r\n    color: white;\r\n    font-family: 'Rubik', sans-serif;\r\n    bottom: 10rem;\r\n    position: relative;\r\n    background-color: rgba(0, 0, 0, 0.568);  \r\n    padding-left: 2rem;\r\n    font-size: 1.4rem;\r\n    width:  100%;\r\n    background-color: rgba(0, 0, 0, 0.568);\r\n\r\n}\r\n\r\n.container_row{\r\n    display: flex;\r\n    width:  100%;\r\n    background-color: rgba(0, 0, 0, 0.568);\r\n\r\n}\r\n\r\n.container{\r\n    height: 24rem;\r\n}\r\n\r\n.container-info h1{\r\n    font-size: 6rem;\r\n}\r\n\r\n.container-info p{\r\n    text-align: justify;\r\n}\r\n\r\nspan h2{\r\n    cursor: pointer;\r\n}\r\nspan h2:{\r\n    text-decoration: underline;\r\n}\r\n/**React player*/\r\n.react-player{\r\n    margin-left: 10rem;\r\n}\r\n.empty-message{\r\n    color: blue;\r\n    font-family: 'Rubik', sans-serif;\r\n    font-size: 10rem;\r\n    margin: 20rem;\r\n    margin-left: 30rem;\r\n}", "",{"version":3,"sources":["webpack://src/Components/Pages/Detail/Detail.css"],"names":[],"mappings":"AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,iBAAiB;IACjB,4BAA4B;AAChC;AACA;IACI,YAAY;IACZ,kBAAkB;IAClB,aAAa;;AAEjB;AACA;IACI,iBAAiB;AACrB;;AAEA;IACI,YAAY;IACZ,gCAAgC;IAChC,aAAa;IACb,kBAAkB;IAClB,sCAAsC;IACtC,kBAAkB;IAClB,iBAAiB;IACjB,YAAY;IACZ,sCAAsC;;AAE1C;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,sCAAsC;;AAE1C;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,eAAe;AACnB;AACA;IACI,0BAA0B;AAC9B;AACA,gBAAgB;AAChB;IACI,kBAAkB;AACtB;AACA;IACI,WAAW;IACX,gCAAgC;IAChC,gBAAgB;IAChB,aAAa;IACb,kBAAkB;AACtB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');\r\n\r\n.Detail-screen{\r\n    background-color: black;\r\n}\r\n\r\n.top-img:hover{\r\n    height: 60rem;\r\n}\r\n\r\n.top-img{\r\n    height: 40rem;\r\n    background-size: cover;\r\n    object-fit: cover; \r\n    background-repeat: no-repeat;\r\n}\r\n.card-img{\r\n    width: 27rem;\r\n    position: relative;\r\n    bottom: 18rem;\r\n\r\n}\r\n.image-div{\r\n    object-fit: cover;    \r\n}\r\n\r\n.container-info{\r\n    color: white;\r\n    font-family: 'Rubik', sans-serif;\r\n    bottom: 10rem;\r\n    position: relative;\r\n    background-color: rgba(0, 0, 0, 0.568);  \r\n    padding-left: 2rem;\r\n    font-size: 1.4rem;\r\n    width:  100%;\r\n    background-color: rgba(0, 0, 0, 0.568);\r\n\r\n}\r\n\r\n.container_row{\r\n    display: flex;\r\n    width:  100%;\r\n    background-color: rgba(0, 0, 0, 0.568);\r\n\r\n}\r\n\r\n.container{\r\n    height: 24rem;\r\n}\r\n\r\n.container-info h1{\r\n    font-size: 6rem;\r\n}\r\n\r\n.container-info p{\r\n    text-align: justify;\r\n}\r\n\r\nspan h2{\r\n    cursor: pointer;\r\n}\r\nspan h2:{\r\n    text-decoration: underline;\r\n}\r\n/**React player*/\r\n.react-player{\r\n    margin-left: 10rem;\r\n}\r\n.empty-message{\r\n    color: blue;\r\n    font-family: 'Rubik', sans-serif;\r\n    font-size: 10rem;\r\n    margin: 20rem;\r\n    margin-left: 30rem;\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.6e20821a97104a4788ff.hot-update.js.map
